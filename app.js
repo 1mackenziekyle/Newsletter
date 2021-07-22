@@ -49,7 +49,7 @@ app.post('/', (req,res) => {
     const url = 'https://us6.api.mailchimp.com/3.0/lists/7f1e87a4fd/members';
     const options = {
         method: "POST",
-        auth: "kyle1:77f6f8da22c8364aa29fc3ad44da796c-us6",
+        auth: "kyle1:cc666dd33a2047674563c56dce80baf0-us6",
     }
 
     // Request and save the response
@@ -74,10 +74,6 @@ app.post('/', (req,res) => {
     });
 
 });
-
-
-// API KEY
-// 77f6f8da22c8364aa29fc3ad44da796c-us6
 
 // LIST ID
 // 7f1e87a4fd
