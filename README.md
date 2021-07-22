@@ -6,4 +6,5 @@ URL: https://glacial-ridge-93256.herokuapp.com/
 
 git repository: https://git.heroku.com/hidden-ridge-64115.git   
 
-gitignore: app.js to keep api key private
+remove file from stage:
+git reset HEAD [fileName]
